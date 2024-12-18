@@ -6,7 +6,7 @@ def closeWords(q, candidates):
     results = []
     for candidate in candidates:
         after_candidate = unidecode(candidate)
-        score = fuzz.ratio(word, after_candidate)
+        score = fuzz.ratio(word, after_candidate)/100
         results.append({"word":candidate,"score":score})
     results.sort(key=lambda candidates: candidates["score"], reverse=True)
     return results
