@@ -6,6 +6,6 @@ from closewords import closeWords
 word='いぬ'
 candidates=['いぬ', 'ねずみ', '猫', 'ねころび']
 result=closeWords(word,candidates)
-print("結果: {}".format(result[1]["word"]))
+print("結果: {}".format(result[0]["word"]))
 print("スコアを含む結果: {}".format(result))
 ```
