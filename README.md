@@ -1,6 +1,6 @@
 # closewords
 A library for finding the most similar word from a list of words, supporting Japanese (including kanji). / 最も似た単語を単語群から検索する日本語(漢字含む)対応のライブラリ<br>
-[js version(original) / js版(original)](https://github.com/otoneko1102/closewords/tree/main)
+[js version(original) / js版(オリジナル)](https://github.com/otoneko1102/closewords/tree/main)
 # Example
 ```py
 from closewords import closeWords
