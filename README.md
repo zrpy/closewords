@@ -9,3 +9,5 @@ result=closeWords(word,candidates)
 print("結果: {}".format(result[0]["word"]))
 print("スコアを含む結果: {}".format(result))
 ```
+# Creator
+<img src="https://github.com/zrpy/zrpy/blob/main/kawaii_logo.png"></img>
